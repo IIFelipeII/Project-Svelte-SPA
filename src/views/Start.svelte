@@ -11,13 +11,13 @@
 		<img src="media/unnamed.jpg" alt="">
 	</div>
 
-<h1 class="text-5xl text-center py-4 font-semibold">Our Website is Coming Soon!</h1>
+<h1 class="text-5xl text-center py-3 font-semibold">Our Website is Coming Soon!</h1>
 
-<div class="my-20">
+<div class="my-10">
 	<p class="text-center">
 		Soon we will celebrate our first six months of dating.
 	</p>
-<Countdown from="2022-06-31 22:30:00" dateFormat="YYYY-MM-DD H:m:s" zone="America/Bogota" let:remaining>
+<Countdown from="2022-06-30 22:30:00" dateFormat="YYYY-MM-DD H:m:s" zone="America/Bogota" let:remaining>
 	<div class="counter">
 		 {#if remaining.done === false}
 		 <!-- <span>{remaining.months} months</span> -->
@@ -65,8 +65,8 @@
 	.button{
 		font-size: 1.1rem;
 		margin: 1rem;
-		position: fixed;
-		bottom: 0;
+		/* position: fixed; */
+		/* bottom: 0; */
 		padding: 1rem;
 		background-color: #282140;
 		border-radius: 2rem;
@@ -118,9 +118,10 @@
 	border-radius: 1.5rem;
 	box-shadow: 2px 2px 10px rgba(255, 255, 255, 0.226);
 	filter: grayscale(100%);
+
 }
 .img-start {
-	height: 20rem;
+	height: 100%;
 	border-radius: 1.5rem;
 }
 </style>
