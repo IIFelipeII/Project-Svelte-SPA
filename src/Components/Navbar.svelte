@@ -1,4 +1,4 @@
-<!-- <script>
+<script>
 	import { Link } from "svelte-routing";
 </script>
 <div class="tittl flex justify-between m-5">
@@ -23,4 +23,4 @@
 	 
 	  </div>
 	</div>
- </div> -->
+ </div>

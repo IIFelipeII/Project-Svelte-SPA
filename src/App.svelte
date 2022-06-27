@@ -1,10 +1,10 @@
 <script lang="ts">
 			import { Router, Link, Route } from "svelte-routing";
-			// import Home from './views/Home.svelte'
-			// import Map from './views/Map.svelte'
+			import Home from './views/Home.svelte'
+			import Map from './views/Map.svelte'
 			import Start from './views/Start.svelte' 
-			// import Write from './views/Write.svelte'
-			// import Nav from './Components/Navbar.svelte'
+			import Write from './views/Write.svelte'
+			import Nav from './Components/Navbar.svelte'
 		
 			
 
@@ -12,9 +12,9 @@
 
 <main>
 
-<Start></Start>
+<!-- <Start></Start> -->
 <div>
-	<!-- <Router> -->
+	<Router>
 		<!-- <nav>
 			<Link to="/">Start</Link>
 			<Link to="/Home">Home</Link>
@@ -25,10 +25,7 @@
 
 			<!-- <Nav></Nav> -->
 
-
-
-
-		<!-- <Route path="/">
+		<Route path="/">
 			<Start></Start>
 		</Route>
 
@@ -42,7 +39,7 @@
 		<Route path="/Maps">
 			<Map></Map>
 		</Route>
-	</Router> -->
+	</Router>
 </div>
 </main>
 <style>

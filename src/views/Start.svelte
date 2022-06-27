@@ -17,7 +17,7 @@
 	<p class="text-center">
 		Soon we will celebrate our first six months of dating.
 	</p>
-<Countdown from="2022-06-30 22:30:00" dateFormat="YYYY-MM-DD H:m:s" zone="America/Bogota" let:remaining>
+<Countdown from="2022-06-31 22:30:00" dateFormat="YYYY-MM-DD H:m:s" zone="America/Bogota" let:remaining>
 	<div class="counter">
 		 {#if remaining.done === false}
 		 <!-- <span>{remaining.months} months</span> -->
