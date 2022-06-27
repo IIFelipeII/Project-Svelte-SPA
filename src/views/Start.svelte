@@ -1,17 +1,14 @@
 <script>
  import { Link } from 'svelte-routing';
-// import Home from '../views/Home.svelte'
 	import Countdown from '../Components/Coun.svelte'
-
 	import Content  from '../Components/ContentPopUp.svelte'
-
   import Modal from 'svelte-simple-modal';
 </script>
 
 
 <section class="">
 	<div class="img-start w-full">
-		<img src="media\unnamed.jpg" alt="">
+		<img src="media/unnamed.jpg" alt="">
 	</div>
 
 <h1 class="text-5xl text-center py-4 font-semibold">Our Website is Coming Soon!</h1>
@@ -83,9 +80,7 @@
 		justify-content: center;
 		align-items: flex-end;
 	}
-	/* .counter span:nth-child(1){
-		color: red;
-	} */
+
 	.counter{
 	
 		display: flex;
